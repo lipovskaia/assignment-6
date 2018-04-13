@@ -2,7 +2,11 @@
 
 //STEP 1
 
-//STEP 2
+
+    var letters = prompt("Enter any word : ");
+    
+window.alert(letters.match(/\w+/gi).sort().join());
+//STEP 2    
 
 //STEP 3
 

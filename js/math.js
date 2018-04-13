@@ -15,8 +15,7 @@ window.alert(Math.floor(x)); */
 
 var x = prompt("Enter 5 numbers : x, x, x, x, x");
 x = x.split(",");
-
-window.alert(Math.max.apply(Math, x) || Math.min.apply(Math,x));
+window.alert(Math.max.apply(Math, x) + ' ' + Math.min.apply(Math, x))
 
 //STEP 5
 /* var x = prompt("Enter any number");
